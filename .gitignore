@@ -1,0 +1,9 @@
+# This is what SHOULD have been here before the first commit.
+# In the demo, point out that if config.py (or a .env) had been listed here
+# from the start, the secret never would have been committed.
+
+.env
+secrets.py
+*.local
+__pycache__/
+*.pyc
